@@ -19,6 +19,10 @@
     "nodemailer": "^6.6.5",
     "nodemon": "^2.0.13"
   },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "engines": {
     "node": "16.5"
   }
