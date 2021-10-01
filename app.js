@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 5000
 
 app.listen(PORT, () => console.log(`Server has started in port: ${PORT}`))
 
-// Setup mongoose
+// Setup Mongoose
 
 mongoose.connect(process.env.MONGODB_CONNECTION_STRING, async (err) => {
   if (err) throw err
